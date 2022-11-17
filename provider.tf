@@ -6,10 +6,10 @@ provider "aws" {
 
 terraform {
   	backend "remote" {
-    	organization = "Turbonomic"
+    	organization = "MyTerraDemo"
 
     workspaces {
-      	name = "nomad-aws-minilab"
+      	name = "Nomad-Demo"
     }
   }
 }
