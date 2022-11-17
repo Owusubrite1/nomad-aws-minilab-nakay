@@ -6,7 +6,7 @@ provider "aws" {
 
 terraform {
   	backend "remote" {
-    	organization = "MyTerraDemo"
+    	organization = "MyTeraDemo"
 
     workspaces {
       	name = "Nomad-Demo"
